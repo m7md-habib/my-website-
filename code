@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif; 
+            text-align: center;
+            margin: 0;
+            background-color: #e6f3ff; 
+            height: 634px; 
+            width: 698px; 
+            margin: 0 auto; 
+            overflow: hidden; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        h1 {
+            color: #004d99; 
+            margin-bottom: 40px; 
+            font-size: 28px; 
+        }
+        ul {
+            list-style-type: none;
+            text-align: center; 
+            display: inline-block;
+            color: #005580; 
+            width: 80%; 
+            margin-bottom: 20px; 
+        }
+        li {
+            margin: 15px 0; 
+            font-size: 18px; 
+        }
+        .blue-name {
+            color: #0066cc; 
+            font-size: 26px; 
+        }
+        .green-university {
+            color: #008000; 
+        }
+        a {
+            color: #0066cc; 
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #003366; 
+        }
+    </style>
+</head>
+<body>
+    <h1>My Website</h1>
+    <ul>
+        <li><span class="blue-name">Mohammed Abdullah Habibullah</span></li>
+        <li>an engineering student at <span class="green-university">King Abdulaziz University</span></li>
+        <li>interested in robotics and electronics</li>
+        <li>This is my GitHub account: <a href="https://github.com/m7md-habib" target="_blank">GitHub</a></li>
+    </ul>
+</body>
+</html>
